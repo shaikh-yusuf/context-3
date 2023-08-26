@@ -1,0 +1,186 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.landing_page{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 900px;
+}
+.navbar{
+    position:sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    z-index: 1000;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+    
+}
+.navbar ul li{
+    display: inline;
+    font-size: 15px; 
+    padding: 20px;
+ 
+}
+.scooter {
+   display: flex;
+   justify-content: space-between;
+   margin: 0px 100px;;
+
+}
+
+.scooter .move{
+    margin-top: 20%;
+}
+
+.scooter .move button{
+    background-color:#F94A3D;
+    padding: 10px;
+    font-size:15px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #F94A3D;
+    color: white;
+    margin-top: 50px;
+}
+.move .more{
+    color:#F94A3D;
+    
+    border: 1 px salmon;
+    background-color: #FDECEC;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.move .more span{
+    margin-left: 10px;
+}
+.about{
+    display: grid;
+    grid-template-rows:1 ;
+    grid-template-columns: 1fr 3fr;
+   /* justify-content: space-around; */
+    margin:80px 100px;
+    text-align: center;
+    
+}
+.about_img{
+    display: flex;
+    justify-content: space-between;
+}
+.about_img img{
+    margin: 30px 0px;
+}
+.about .about_img .choose{
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom:10px;
+}
+.about .about_img .choose2{
+    width: 30%;
+    box-shadow: rgba(243, 227, 6, 0.24) 0px 3px 8px;
+}
+
+/* Special-Recipe */
+.Special-Recipe .Special-Recipe_menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;;
+}
+.Special-Recipe .Special-Recipe_menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+.Special-Recipe .Special-Recipe_menu a:hover{
+    color:red;
+    border-bottom: 1px solid red;
+}
+hr{
+    height: 1px solid lightgray;
+    margin-top: 30px;
+}
+
+.Recipe_categary{
+    display: flex;
+    justify-content: space-around;
+   
+    margin: 200px;
+}
+.Recipe_categary .recipe_content{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius:10px;
+    text-align:center;
+   
+}
+
+.Recipe_categary .recipe_content:hover{
+    box-shadow: rgba(187, 220, 4, 0.24) 0px 3px 8px;
+}
+.Recipe_categary .recipe_content button{
+    padding: 10px;
+    font-size:15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: red;
+
+}
+.Recipe_categary .recipe_content button:hover{
+    background-color: red;
+    color: #FDECEC;
+}
+.Recipe_categary .recipe_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    
+}
+.Recipe_categary .recipe_content .rating{
+    margin-bottom: 10px ;
+}
+/* testinomail */
+.testinomial{
+    background-color:#F8F8F8;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.testinomial .testinomial_content1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap:20%;
+    margin-top: 100px;
+}
+.testinomial .testinomial_content1:hover{
+    background-color:white;
+    width:50%;
+    height: 90px;
+    border-right: 1px solid red;
+}
+
+.testinomial .testinomial_content2{
+    top:100px;
+    text-align: lefts;
+}
+ .testinomial_content2_2{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+}
+.Call_Effectiveness{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
